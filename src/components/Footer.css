@@ -1,0 +1,41 @@
+/* Footer Container */
+.footer-container {
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 2rem 0;
+  text-align: center;
+}
+
+/* Social Links */
+.social {
+  margin: 0 1.5rem; /* Increased margin for better spacing */
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.social:hover {
+  transform: translateY(-3px); /* Slightly larger hover effect */
+}
+
+/* Social Icons */
+.youtube {
+  color: #eb3223; /* Red color for YouTube icon */
+}
+
+.facebook {
+  color: #4968ad; /* Blue color for Facebook icon */
+}
+
+.twitter {
+  color: #49a1eb; /* Light blue color for Twitter icon */
+}
+
+.instagram {
+  color: #000000; /* Black color for Instagram icon */
+}
+
+/* Footer Text */
+.footer-text {
+  margin-top: 1rem; /* Add some space between social icons and footer text */
+  color: #6c757d; /* Dark gray text color */
+  font-size: 0.9rem; /* Decreased font size for better readability */
+}

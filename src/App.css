@@ -1,0 +1,34 @@
+/* Centering and Styling for App */
+.App {
+  text-align: center;
+}
+
+/* Logo */
+.App-logo {
+  height: 20vmin; /* Reduced size for better proportion */
+  max-width: 100%; /* Ensure the logo doesn't exceed its container */
+  margin-bottom: 2rem; /* Added margin for better spacing */
+}
+
+/* Header */
+.App-header {
+  background-color: #007bff; /* Dark blue background color */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem; /* Increased font size for better readability */
+  color: #ffffff; /* White text color */
+}
+
+/* Link */
+.App-link {
+  color: #61dafb; /* Light blue link color */
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s ease; /* Smooth transition for link color change */
+}
+
+.App-link:hover {
+  color: #ffffff; /* Change link color to white on hover */
+}

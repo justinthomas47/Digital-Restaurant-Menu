@@ -1,0 +1,42 @@
+.PinkNavbar {
+  background-color: #f8f9fa; /* Light gray background */
+  border-bottom: 1px solid #dee2e6; /* Add a subtle border at the bottom */
+}
+
+.color-nav {
+  background-color: #343a40; /* Dark gray background */
+}
+
+.color-nav .navbar-brand {
+  color: #ffffff; /* White text color for brand */
+  font-weight: bold; /* Make the brand text bold */
+}
+
+.color-nav .nav-link {
+  color: #ffffff; /* White text color for navigation links */
+  font-weight: bold; /* Make the navigation link text bold */
+}
+
+.color-nav .nav-link:hover {
+  color: #c0c0c0; /* Light gray text color on hover */
+}
+
+.color-nav .form-control {
+  background-color: #ffffff; /* White background for search input */
+  color: #000000; /* Black text color for search input */
+}
+
+.color-nav .form-control::placeholder {
+  color: #6c757d; /* Dark gray placeholder color */
+}
+
+.color-nav .btn {
+  background-color: #007bff; /* Blue color for search button */
+  border-color: #007bff; /* Blue border color for search button */
+  color: #ffffff; /* White text color for search button */
+}
+
+.color-nav .btn:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+  border-color: #0056b3; /* Darker blue border color on hover */
+}
